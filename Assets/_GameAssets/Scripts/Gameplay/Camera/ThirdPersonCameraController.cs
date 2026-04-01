@@ -1,0 +1,28 @@
+using UnityEngine;
+
+public class ThirdPersonCameraController : MonoBehaviour
+{
+    [SerializeField] private Transform _playerTransform;
+    [SerializeField] private Transform _orientationTransform;
+    [SerializeField] private Transform _playerVisualTransform;
+    [Header("References")]
+    [SerializeField] private float _rotationSpeed;
+    
+    
+    void Update()
+    {
+        Vector3 viewDirection = _playerTransform.position - new Vector3(transform.position.x, _playerTransform.position.y, transform.position.z);
+        _orientationTransform.forward = viewDirection.normalized;
+        
+        float horizantalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");  
+        
+        Vector3 inputDirection = _orientationTransform.forward * verticalInput + _orientationTransform.right * horizantalInput;
+
+        if (inputDirection != Vector3.zero)
+        {
+            _playerVisualTransform.forward = Vector3.Slerp(_playerVisualTransform.forward, inputDirection.normalized, _rotationSpeed * Time.deltaTime);    
+        }
+        
+    }
+}
