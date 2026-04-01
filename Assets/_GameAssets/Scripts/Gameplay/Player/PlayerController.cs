@@ -1,8 +1,10 @@
 using System;
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
+    public event Action onPlayerJump;
+    
     [Header("References")]
     [SerializeField] private Transform _orientationTransform;
 
@@ -77,11 +79,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
             _ => currentState
         };
 
-        if (newState != currentState)
+        if(newState != currentState)
         {
             _stateController.ChangeState(newState);
         }
-        
     }
 
     private void SetPlayerMovement()
@@ -126,6 +127,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     private void SetPlayerJumping()
     {
+        onPlayerJump?.Invoke();
         _playerRigidbody.linearVelocity = new Vector3(_playerRigidbody.linearVelocity.x, 0f, _playerRigidbody.linearVelocity.z);
         _playerRigidbody.AddForce(transform.up * _jumpForce, ForceMode.Impulse);
     }

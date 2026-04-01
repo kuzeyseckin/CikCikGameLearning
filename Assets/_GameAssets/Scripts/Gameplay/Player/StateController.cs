@@ -7,7 +7,7 @@ public class StateController : MonoBehaviour
 
    public void ChangeState(PlayerState newPlayerState)
    {
-      if (_currentPlayerState != newPlayerState)
+      if (_currentPlayerState == newPlayerState)
       {
          return;
       }
