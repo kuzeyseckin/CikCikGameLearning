@@ -14,6 +14,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_GameAssets/Scripts/Enums/PlayerState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd7d12fa183547d8a6812db17fb089862ac00/2c/6421bd24/SphereCollider.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -84,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1774892378449</updated>
-      <workItem from="1774892381436" duration="11257000" />
+      <workItem from="1774892381436" duration="13912000" />
     </task>
     <servers />
   </component>
