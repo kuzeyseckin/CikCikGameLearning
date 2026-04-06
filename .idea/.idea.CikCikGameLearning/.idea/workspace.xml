@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ecb5acd2-fe15-4eca-a835-cefa659aa3c6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CikCikGameLearning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CikCikGameLearning/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GameAssets/Animations/Player/PlayerVisual.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GameAssets/Animations/Player/PlayerVisual.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Gameplay/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Gameplay/Player/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Helper/Consts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Helper/Consts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/GoldWheatCollectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/GoldWheatCollectible.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/HolyWheatCollectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/HolyWheatCollectible.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/RottenWheatCollectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/RottenWheatCollectible.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Gameplay/Player/PlayerInteractionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Gameplay/Player/PlayerInteractionController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/ICollectible.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GameAssets/Scripts/Enums/PlayerState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GameAssets/Scripts/Gameplay/Player/PlayerAnimationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GameAssets/Scripts/Helper/Consts.cs" root0="FORCE_HIGHLIGHTING" />
@@ -99,7 +97,7 @@
       <updated>1774892378449</updated>
       <workItem from="1774892381436" duration="16078000" />
       <workItem from="1775055899359" duration="9900000" />
-      <workItem from="1775503261322" duration="94000" />
+      <workItem from="1775503261322" duration="691000" />
     </task>
     <servers />
   </component>
