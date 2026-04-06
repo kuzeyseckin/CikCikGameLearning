@@ -30,7 +30,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _playerHeight;
     [SerializeField] private LayerMask _groundLayer;
     [SerializeField] private float _groundDrag;
-    
+
+    private float _startingMovementSpeed, _startingJumpForce;
     private StateController _stateController;
     private Rigidbody _playerRigidbody;
     private float _horizontalInput, _verticalInput;
@@ -146,6 +147,29 @@ public class PlayerController : MonoBehaviour
     {
         return _isSliding;
     }
+
+    public void SetMovementSpeed(float speed, float duration)
+    {
+        _movementSpeed += speed;
+        Invoke(nameof(ResetMovementSpeed), duration);
+    }
+
+    private void ResetMovementSpeed()
+    {
+        _movementSpeed = _startingMovementSpeed;
+    }
+
+    public void SetJumpForce(float force, float duration)
+    {
+        _jumpForce += force;
+        Invoke(nameof(ResetJumpForce), duration);
+        
+    }
+
+    private void ResetJumpForce()
+    {
+        _jumpForce = _startingJumpForce;
+    }
     
     private Vector3 GetMovementDirection()
     {
@@ -159,6 +183,9 @@ public class PlayerController : MonoBehaviour
         _playerRigidbody.freezeRotation = true;
         _playerRigidbody.interpolation = RigidbodyInterpolation.Interpolate;
         _playerRigidbody.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
+        
+        _startingMovementSpeed = _movementSpeed;
+        _startingJumpForce = _jumpForce;
     }
 
     void Start()
