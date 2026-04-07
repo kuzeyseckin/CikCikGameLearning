@@ -37,7 +37,11 @@ public class PlayerController : MonoBehaviour
     private float _horizontalInput, _verticalInput;
     private Vector3 _movementDirection;
     private bool _isSliding; // non variable is false
-    
+
+    public Rigidbody GetPlayerRigidBody()
+    {
+        return  _playerRigidbody; 
+    }
     private void SetInputs()
     {
         _horizontalInput = Input.GetAxis("Horizontal");
