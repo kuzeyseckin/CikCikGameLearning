@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/GoldWheatCollectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/GoldWheatCollectible.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/HolyWheatCollectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/HolyWheatCollectible.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/RottenWheatCollectible.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Collectibles/Wheats/RottenWheatCollectible.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Gameplay/Player/PlayerInteractionController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_GameAssets/Scripts/Gameplay/Player/PlayerInteractionController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/_GameAssets/Scripts/Enums/PlayerState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GameAssets/Scripts/Gameplay/Player/PlayerAnimationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_GameAssets/Scripts/Helper/Consts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_GameAssets/Scripts/ScriptableObjects/WheatDesignSO.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fd7d12fa183547d8a6812db17fb089862ac00/2c/6421bd24/SphereCollider.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -97,7 +97,7 @@
       <updated>1774892378449</updated>
       <workItem from="1774892381436" duration="16078000" />
       <workItem from="1775055899359" duration="9900000" />
-      <workItem from="1775503261322" duration="691000" />
+      <workItem from="1775503261322" duration="2575000" />
     </task>
     <servers />
   </component>
