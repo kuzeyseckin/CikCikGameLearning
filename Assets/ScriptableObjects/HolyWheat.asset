@@ -14,3 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _increaseDecreaseMultiplier: 8
   _resetBoostDuration: 5
+  _activeSprite: {fileID: 0}
+  _passiveSprite: {fileID: 0}
+  _activeWheatSprite: {fileID: 0}
+  _passiveWheatSprite: {fileID: 0}
